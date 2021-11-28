@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import { SiDiscord, SiTelegram } from 'react-icons/si';
+import { SiDiscord, SiTwitter } from 'react-icons/si';
 
 export const IndexSplashStyles = styled.div`
     width: 100vw;
@@ -82,8 +82,8 @@ export function IndexSplash() {
                 <a href="https://discord.gg/9QxE8cXy" target="discord">
                     <SiDiscord/>
                 </a>
-                <a href="https://discord.gg/9QxE8cXy" target="telegram">
-                    <SiTelegram/>
+                <a href="https://twitter.com/EtnaDAO" target="twitter">
+                    <SiTwitter/>
                 </a>
             </div>
 
