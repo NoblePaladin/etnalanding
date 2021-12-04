@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
+import { AiFillMail } from 'react-icons/ai';
 import { SiDiscord, SiTwitter } from 'react-icons/si';
 
 export const IndexSplashStyles = styled.div`
@@ -79,6 +80,9 @@ export function IndexSplash() {
             <img src="/image/logo.png" className="logo"/>
 
             <div className="social">
+                <a href="team@etna.finance" target="mail">
+                    <AiFillMail/>
+                </a>
                 <a href="https://discord.gg/9QxE8cXy" target="discord">
                     <SiDiscord/>
                 </a>
